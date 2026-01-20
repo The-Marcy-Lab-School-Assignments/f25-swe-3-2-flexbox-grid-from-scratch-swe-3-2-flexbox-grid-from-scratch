@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: black; */
 }
 
 ul {
@@ -14,6 +15,195 @@ ul {
 
 img {
   width: 100%;
+
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20px;
+  flex: 1
 }
 
 /* Add your styles below */
+
+
+ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px 15px;
+  background-color: black;
+  border-radius: 4px;
+  padding: 8px;
+
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  padding: 30px;
+  background-color: black;
+}
+
+header {
+  padding: 30px;
+  padding-bottom: 30px;
+  color: #d1d1d1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+nav>a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20xp;
+
+}
+
+nav>a:hover {
+  color: #1db954;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header>input {
+  padding: 10px 20px;
+}
+
+footer {
+  align-items: center;
+  padding-top: 20px;
+  background-color: #1e1e1e;
+}
+
+/* ================================ */
+/* Add your CSS below this line */
+/* ================================ */
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #1db954;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20xp;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #1db954;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  gap: 20px 20xp;
+}
+
+main {
+  display: flex;
+  padding: 30px;
+  color: white;
+  background-color: #1e1e1e;
+}
+
+p {
+  color: white;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+  font-weight: 0.9rem;
+}
+
+footer>p {
+  align-items: center;
+}
+
+figcaption {
+  font-weight: bold;
+  margin-bottom: 5px;
+  gap: 15px;
+  background-color: black;
+
+
+}
+
+section {
+  display: flex;
+  gap: 40px;
+  background-color: #1e1e1e;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+aside {
+  display: flex;
+  grid-template-rows: 1fr 1f;
+
+}
+
+figure {
+  width: 180px;
+  display: grid;
+  padding: 15px;
+  background-color: black;
+  align-items: center;
+  gap: 15px;
+}
+
+.picture {
+  /* Add Grid Props*/
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  border-collapse: separate;
+  border-spacing: 15px;
+  gap: 40px;
+  background-color: #1e1e1e;
+}
+
+.logo {
+  width: 120px;
+  padding: 30px;
+}
+
+.grid-item {
+  height: 100px;
+
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.grid-play {
+  display: flex;
+  width: 100px;
+
+  border-radius: 4px;
+  background-color: black;
+}
+
+aside>p {
+  font-weight: 0.9rem;
+}
