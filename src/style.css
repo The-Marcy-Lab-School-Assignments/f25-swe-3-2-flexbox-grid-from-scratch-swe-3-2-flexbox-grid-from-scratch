@@ -14,6 +14,41 @@ ul {
 
 img {
   width: 100%;
+  margin-left: auto;
+  padding-left: 0%;
+}
+
+footer {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+h2 {}
+
+section {}
+
+a:hover {
+  background: lightblue;
+}
+
+@media (min-width: 600px) {
+  .selector {}
+}
+
+.nav {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  text-align: end;
 }
 
 /* Add your styles below */
