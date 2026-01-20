@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  /* background-color: black; */
 }
 
 ul {
@@ -33,29 +33,35 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px 40px;
+  gap: 15px 15px;
+  background-color: black;
+  border-radius: 4px;
+  padding: 8px;
+
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   padding: 30px;
-  color: #1e1e1e;
+  background-color: black;
 }
 
 header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #d1d1d1;
-  background-color: black;
+  padding: 30px;
+  padding-bottom: 30px;
+  color: #d1d1d1;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  background-color: black;
 }
 
 nav {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  padding: 30px;
 }
 
 nav>a {
@@ -82,8 +88,9 @@ header>input {
 }
 
 footer {
-  border-top: 1px solid #d1d1d1;
+  align-items: center;
   padding-top: 20px;
+  background-color: #1e1e1e;
 }
 
 /* ================================ */
@@ -109,6 +116,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #1e1e1e;
   gap: 20px 20xp;
 }
 
@@ -116,23 +124,37 @@ main {
   display: flex;
   padding: 30px;
   color: white;
+  background-color: #1e1e1e;
 }
 
 p {
+  color: white;
   display: flex;
   gap: 5px;
   margin-bottom: 5px;
+  font-weight: 0.9rem;
+}
+
+footer>p {
+  align-items: center;
 }
 
 figcaption {
   font-weight: bold;
   margin-bottom: 5px;
-}
+  gap: 15px;
+  background-color: black;
 
+
+}
 
 section {
   display: flex;
   gap: 40px;
+  background-color: #1e1e1e;
+
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 aside {
@@ -141,21 +163,47 @@ aside {
 
 }
 
-.picture {
-  /* Add Grid Props*/
+figure {
+  width: 180px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  background-color: black;
+  align-items: center;
+  gap: 15px;
 }
 
-section {
+.picture {
+  /* Add Grid Props*/
+  width: 1200px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  border-collapse: separate;
+  border-spacing: 15px;
+  gap: 40px;
+  background-color: #1e1e1e;
+}
+
+.logo {
+  width: 120px;
+  padding: 30px;
 }
 
 .grid-item {
-  width: 150px;
-  height: ;
+  height: 100px;
 
-  border-radius: 20px 20px;
   padding: 20px;
+  border-radius: 4px;
+}
+
+.grid-play {
+  display: flex;
+  width: 100px;
+
+  border-radius: 4px;
+  background-color: black;
+}
+
+aside>p {
+  font-weight: 0.9rem;
 }
