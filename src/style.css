@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
 ul {
@@ -14,6 +15,147 @@ ul {
 
 img {
   width: 100%;
+
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20px;
+  flex: 1
 }
 
 /* Add your styles below */
+
+
+ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 40px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  padding: 30px;
+  color: #1e1e1e;
+}
+
+header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d1d1;
+  background-color: black;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav>a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20xp;
+
+}
+
+nav>a:hover {
+  color: #1db954;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header>input {
+  padding: 10px 20px;
+}
+
+footer {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 20px;
+}
+
+/* ================================ */
+/* Add your CSS below this line */
+/* ================================ */
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #1db954;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20xp;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #1db954;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 20xp;
+}
+
+main {
+  display: flex;
+  padding: 30px;
+  color: white;
+}
+
+p {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+figcaption {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+section {
+  display: flex;
+  gap: 40px;
+}
+
+aside {
+  display: flex;
+  grid-template-rows: 1fr 1f;
+
+}
+
+.picture {
+  /* Add Grid Props*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-item {
+  width: 150px;
+  height: ;
+
+  border-radius: 20px 20px;
+  padding: 20px;
+}
