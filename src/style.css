@@ -9,11 +9,71 @@
 }
 
 ul {
-  list-style: none;
+  list-style: none;  
 }
 
 img {
-  width: 100%;
+  width: 5%;
 }
 
 /* Add your styles below */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  color: green
+}
+
+.grid-item{
+  background: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grid-item img {
+  width: 22%;
+  border-radius: 10%;
+}
+
+.grid-container {
+  border: 1px solid black;
+  padding: 20px;
+
+  /* Add Grid Props*/
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+    grid-auto-rows: 100px;
+    gap: 8px;
+    justify-content: center;
+}
+ 
+#inequal {
+  height: 82%;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+nav > a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav > a:hover {
+  color: green;
+}
+
+
